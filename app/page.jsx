@@ -1,3 +1,5 @@
+import './styles/globals.css'; 
+import './styles/home.css'; 
 import Link from 'next/link';
 
 export default function Home() {
@@ -10,11 +12,13 @@ export default function Home() {
       <h2>Articles récents</h2>
       <ul>
         <li>
-          <Link href="/blog">Voir tous les articles</Link>
+          <Link href="./blog">Voir tous les articles</Link>
         </li>
       </ul>
-      <Link href="/contact">Contactez-nous</Link>
+      <Link href="./contact">Contactez-nous</Link>
     </main>
   );
 }
+
+
 
