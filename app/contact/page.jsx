@@ -1,6 +1,3 @@
-import '../styles/globals.css'; 
-import '../styles/contact.css'; 
-
 export default function Contact() {
   return (
     <main>
@@ -9,5 +6,8 @@ export default function Contact() {
     </main>
   );
 }
+
+
+  
 
   
